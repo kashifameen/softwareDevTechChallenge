@@ -1,0 +1,45 @@
+.container {
+    background-color: #fff;
+    overflow: hidden;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40vh;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+}
+.formContainer {
+    background: RGB(137,200,46);
+    color: #3c3c3b;
+    padding: 35px;
+    resize: both;
+    overflow: auto;
+    border: 4px black solid;
+    border-radius: 15px;
+    display:flex;
+    text-align: center;
+    font-family: Calibri;
+}
+
+.passed {
+    background-color: #89c82e;
+}
+
+.failed {
+    background-color: RGB(231,0,100);
+}
+.empty{
+    background-color: white;
+}
+.submitButton {
+    background-color: RGB(231,0,100)
+}
+input{
+    margin-bottom: 5px;
+}
+#card{
+    margin-left: 7px;
+}
