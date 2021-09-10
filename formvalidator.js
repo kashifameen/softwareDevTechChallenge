@@ -37,8 +37,8 @@ function checkInputs(){
     } else if(!valid_credit_card(cardValue)){
         card.classList.add('failed');
     } else {
-        card.classList.remove('failed')
         card.classList.add('passed')
+        card.classList.remove('failed')
     }
 
 
@@ -75,5 +75,5 @@ function valid_credit_card(value) {
     return (nCheck % 10) == 0;
 }
 
-console.log(valid_credit_card("5610591081018250"),"valid_credit_card Validation");
+
 
